@@ -137,7 +137,7 @@ border-radius: 10%;
     // USERNAME //
     if (response.data.listening_to_spotify === true) document.getElementsByClassName(`card1-username`)[0].innerHTML = "Listening to Spotify"
     else if (rpc) document.getElementsByClassName(`card1-username`)[0].innerHTML = rpc.name
-    else document.getElementsByClassName(`card1-username`)[0].innerHTML = "There are no games or spotify being played :("
+    else document.getElementsByClassName(`card1-username`)[0].innerHTML = "There are no games or spotify being played :<"
     // TITLE //
     if (response.data.listening_to_spotify === true) document.getElementById(`card1-title`).innerHTML = `@${response.data.discord_user.username} > Playing "${response.data.spotify.song}"`
     else if (rpc) document.getElementById(`card1-title`).innerHTML = `@${response.data.discord_user.username} > Playing ${rpc.name}`
