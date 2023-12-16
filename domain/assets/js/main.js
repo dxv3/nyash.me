@@ -34,7 +34,7 @@ if (!self.__WB_pmw) {
 
     var x = 0;
 
-    var titleText = ["‎", "kami! "];
+    var titleText = ["‎", "dxv3! "];
 
     function loop() {
 
