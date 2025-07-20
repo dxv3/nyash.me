@@ -9,7 +9,7 @@ window.onscroll = function() {
     window.scrollTo(0, 0);
 }
 document.onkeydown = (e) => {
-    // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+    // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U 
     if (
         event.keyCode === 123 ||
         ctrlShiftKey(e, `I`) ||
